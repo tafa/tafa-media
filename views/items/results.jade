@@ -1,0 +1,14 @@
+- title = "TODO title"
+
+//- stub data
+- items = [{title: "First Video"}, {title: "Second Video"}, {title: "Third Video"}]
+
+
+table
+  - each item in items
+    tr
+      td.list_thumbnail
+        .list_thumbnail
+      td.list_title
+        .list_title= item.title
+
